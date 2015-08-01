@@ -16,7 +16,7 @@
     ```
 2. Set up `package.json` by running `npm init` at the top level of the app. Accept all the default options. This will result in an empty `package.json` file.
 3. Next, we will tell `npm` to download all of the dependencies for this application and save them in a `node_modules` directory. We will install the necessary modules for using **Gulp**, a build system which will:
-  - transform our JSX files in to JS and save output in `path.DEST_SRC` or `public/src/`.
+   transform our JSX files in to JS and save output in `path.DEST_SRC` or `public/src/`.
   - copy our index.jade file from `path.JADE` or `frontend/index.jade` to `path.DEST` or `views/`.
   - it will watch for changes in all jade and JSX files (without gulp, we could have to do a lot more work every time we make changes to the app)
   We will also install the necessary modules for using **Browserify**, a CommonJS loader which oversees dependency resolution and allows you to require modules on the client side of your app. It bundles all .js files into a single file and updates the body of the index.jade file in `path.DEST` to contain just one rather than many of our self-made modules.
