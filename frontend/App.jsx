@@ -1,7 +1,8 @@
 "use strict";
 
 var React = require('react');
-var ScrollContainer = require('./Scroll/ScrollContainer.jsx');
+//var ScrollContainer = require('./Scroll/ScrollContainer.jsx');
+var ThemeX = require('./ThemeX/ThemeX.jsx');
 
-React.render( <ScrollContainer/>, $('#container')[0]);
+React.render(<ThemeX/>, $('#container')[0]);
 

@@ -1,5 +1,20 @@
-body {
-  background-color: #222;
+/*html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  display: block;
+  counter-reset: headings 0;
+  vertical-align: baseline;
+}*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  vertical-align: baseline;
 }
 
 span {
@@ -33,6 +48,8 @@ span {
 
 .app-container {
   background-color: #222;
+  width: 100%;
+  height: 100%;
 }
 
 .app-header {
@@ -81,4 +98,93 @@ span {
   width: 600px;
   height: 400px;
   background-color: #eee;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  font-family: 'Gotham A', 'Gotham B', sans-serif;
+  word-spacing: normal;
+}
+
+li a {
+  text-decoration: none;
+  color: #555;
+  padding-bottom: 12px;
+  font-size: 16px;
+}
+
+ul li {
+  font-weight: 200;
+  line-height: 28px;
+}
+
+h1 {
+  color:#222;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.themex-body {
+  width: 100%;
+  height: 100%;
+}
+
+div.themex-hp-image {
+  background: url('../images/blue-sky-clouds.jpg');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:100% 500px;
+  height: 500px;
+  text-align:center;
+}
+
+.themex-logo {
+  width: 160px;
+  height: 40px;
+  position: relative;
+  float: left;
+  top: 4px;
+  left: 15px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.themex-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 65px;
+  line-height: 65px;
+  filter: alpha(opacity=90);
+  background-color: rgba(250,250,250,0.9);
+  box-sizing: border-box;
+  display: block;
+}
+
+.themex-nav {
+  padding-right: 20px;
+  float: right;
+  line-height: 65px;
+}
+
+.themex-nav-elements {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: block;
+}
+
+.themex-nav-element {
+  margin-left: 25px;
+  list-style: none;
+  display: inline-block;
 }

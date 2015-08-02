@@ -28,7 +28,12 @@ var ThemeX = React.createClass({
               {nav_elts}
             </ul>
           </nav>
+          <a href="#">
+            <h1 className="themex-logo">Your Logo</h1>
+          </a>
         </header>
+        <div className="themex-hp-image">
+        </div>
       </div>
     );
   }

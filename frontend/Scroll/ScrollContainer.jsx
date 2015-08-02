@@ -20,6 +20,8 @@ var ScrollContainer = React.createClass({
               };
     },
     componentDidMount: function(){
+      $('body').css('background-color','#222');
+
 
       $('#scroll').bind('mousewheel', function(event){
         this.onScroll(event);
@@ -87,6 +89,7 @@ var ScrollContainer = React.createClass({
     }
     return (
       <div className="app-container">
+
         <span className="app-header">Text</span>
         <NavBar bars={this.barsEvent} colors={this.colorsEvent}/>
         <div className="page">
