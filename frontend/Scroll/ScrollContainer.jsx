@@ -58,6 +58,7 @@ var ScrollContainer = React.createClass({
       if (this.scrollvis.dps.length > this.scrollvis.oldLength){
         this.scrollvis.oldLength += 1;
         this.scrollvis.add_bar();
+
         this.setState({
                       vis: this.scrollvis.make_ship_container(),
                       n: (this.state.n+20)%100
